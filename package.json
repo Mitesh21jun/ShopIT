@@ -1,0 +1,20 @@
+{
+  "name": "shopit",
+  "version": "1.0.0",
+  "description": "full e-commerce site using mern",
+  "main": "server.js",
+  "scripts": {
+    "start": "echo node backend/server.js",
+    "dev" : "echo NODE_ENV=DEVELOPMENT& nodemon backend/server",
+    "prod":  "echo NODE_ENV=PRODUCTION& nodemon backend/server",
+    "seeder":"node backend/utils/seeder.js"
+  },
+  "author": "Mitesh Sahu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "nodemon": "^2.0.7"
+  }
+}
